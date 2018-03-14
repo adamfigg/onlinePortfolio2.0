@@ -35,15 +35,15 @@ export default class Example extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink>About Me</NavLink>
+                <NavLink onClick={this.props.navAbout}>About Me</NavLink>
               </NavItem>
               
               <NavItem>
-                <NavLink>Portfolio</NavLink>
+                <NavLink onClick={this.props.navPortfolio}>Portfolio</NavLink>
               </NavItem>
 
               <NavItem>
-                <NavLink>Resume</NavLink>
+                <NavLink onClick={this.props.navResume}>Resume</NavLink>
               </NavItem>
 
               <NavItem>
