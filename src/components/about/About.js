@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import AdamFiggat from './AdamFiggat.jpg';
 
 import {
     Container,
-    Row
+    Row,
+    Col
 } from 'reactstrap';
 
 import "./About.css";
@@ -15,8 +15,8 @@ class About extends Component {
         return (
             <Container className="AboutMe" >
                 <Row>
+                    <Col>
                     <center>
-                    <img className="img-profile" src={AdamFiggat} />
                     <h1>About Me</h1>
                     </center>
 
@@ -28,7 +28,7 @@ class About extends Component {
                         My previous 7 years were spent working as a social media marketer (SMM), content curator, search engine optimizer (SEO),  and event marketer.</p>
                     <p className="AboutMe">
                         I am a seeker of fresh powder, avid gamer, and enjoy most things adventurous.</p>
-
+                        </Col>
                 </Row>
             </Container>
 

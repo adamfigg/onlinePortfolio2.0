@@ -4,6 +4,7 @@ import Navbar from './components/navbar/Navbar';
 import About from './components/about/About';
 import Portfolio from './components/portfolio/Portfolio';
 import Resume from './components/resume/Resume';
+import Footer from './components/footer/Footer';
 
 import './App.css';
 
@@ -48,6 +49,13 @@ class App extends Component {
           navResume={this.navResume}
         />
 
+
+        <div className='hero-pic'/>
+
+        <div className='profile-pic'/>
+
+
+        <div className="body">
         {
           this.state.page === "About" && (<About />)
         }
@@ -59,7 +67,9 @@ class App extends Component {
         {
           this.state.page === "Resume" && (<Resume />) 
         }
+        </div>
 
+        <Footer/>
       </div>
     );
   }
