@@ -12,14 +12,16 @@ class Footer extends Component {
 						<Col md='4'>
 							<p className="lead">Contact</p>
 							<hr />
-							<p>afiggat@gmail.com</p>
-							<p>760.814.7652</p>
+							<a href="mailto:afiggat@gmail.com">afiggat@gmail.com</a>
+                            <br/>
+							<a href="tel:+1-760-814-7652">760.814.7652</a>
 						</Col>
 						<Col md='4'>
 							<p className='lead'>Links</p>
 							<hr />
-							<p>linkedin</p>
-							<p>github</p>
+							<a href="https://www.linkedin.com/in/adam-figgat/">LinkedIn</a>
+                            <br/>
+							<a href="https://github.com/adamfigg">Github</a>
 						</Col>
 					</Row>
 				</Container>

@@ -15,6 +15,7 @@ class Portfolio extends Component {
         return (
             <Container className="Portfolio">
                 <PortfolioItem name="Overwatch Hero App" file={OverwatchApp} tech="React, Nodejs, SQL, jQuery, and Bootstrap">
+                    <a href="http://hero-selector-roulette.surge.sh/">Demo here</a>
                     <ul className="Portfolio-bullets">
                         <li>Implemented​ ​a​ ​user​ ​experience​ ​that​ ​makes​ ​active​ ​calls​ ​to​ ​an​ ​outside​ ​API​ ​within​ ​a​ ​React​ ​based​ ​app</li>
                         <li>Prototyped​ ​and​ ​designed​ ​with​ ​Adobe​ ​Experience​ ​and​ ​used​ ​React​ ​best practices​ ​to​ ​reduce​ ​load​ ​times​ ​on​ ​API​ ​calls</li>

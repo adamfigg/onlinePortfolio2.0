@@ -3,3 +3,9 @@
     box-shadow: 0px 2px 10px -1px rgba(0, 0, 0, 0.75);
 
 }
+
+@media screen and (max-width: 767px) {
+    .resumeImage {
+        max-height:90vh;
+    }
+}

@@ -12,6 +12,8 @@ import {
   DropdownMenu,
   DropdownItem } from 'reactstrap';
 
+import './Navbar.css';
+
 export default class Example extends React.Component {
   constructor(props) {
     super(props);
@@ -42,13 +44,13 @@ export default class Example extends React.Component {
                 <NavLink onClick={this.props.navPortfolio}>Portfolio</NavLink>
               </NavItem>
 
-              <NavItem>
+              <NavItem className="resumeNav">
                 <NavLink onClick={this.props.navResume}>Resume</NavLink>
               </NavItem>
 
-              <NavItem>
+              {/*<NavItem>
                 <NavLink>Contact</NavLink>
-              </NavItem>
+              </NavItem>*/}
 
             </Nav>
           </Collapse>

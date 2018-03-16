@@ -22,9 +22,6 @@ onDocumentLoad = ({ numPages }) => {
 
         return (
             <div>
-                <center>
-                <h1>Feel free to download my resume here!</h1>
-                </center>
             <div className="d-flex justify-content-center">
                 <Document className="resumeImage"
                 file={pdf}
@@ -32,6 +29,9 @@ onDocumentLoad = ({ numPages }) => {
                 <Page pageNumber={pageNumber} />
                 </Document>
             </div>
+                <center> 
+                    <a href="./AdamFiggatWebDeveloper.pdf">Download a copy of my reusme here!</a>
+                </center>
             </div>
         );
     }
