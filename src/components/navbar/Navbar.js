@@ -10,7 +10,10 @@ import {
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
-  DropdownItem } from 'reactstrap';
+  DropdownItem
+} from 'reactstrap';
+
+import { Link } from 'react-router-dom';
 
 import './Navbar.css';
 
@@ -37,20 +40,24 @@ export default class Example extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink onClick={this.props.navAbout}>About Me</NavLink>
+                <NavLink>
+                  <Link to="/About">About</Link>
+                </NavLink>
               </NavItem>
-              
+
               <NavItem>
-                <NavLink onClick={this.props.navPortfolio}>Portfolio</NavLink>
+
+                <NavLink>
+                  <Link to="/Portfolio">Portfolio</Link>
+                </NavLink>
               </NavItem>
 
               <NavItem className="resumeNav">
-                <NavLink onClick={this.props.navResume}>Resume</NavLink>
-              </NavItem>
 
-              {/*<NavItem>
-                <NavLink>Contact</NavLink>
-              </NavItem>*/}
+                <NavLink>
+                  <Link to="/Resume">Resume</Link>
+                </NavLink>
+              </NavItem>
 
             </Nav>
           </Collapse>
