@@ -29,9 +29,9 @@ class Resume extends Component {
                         <Page pageNumber={pageNumber} />
                     </Document>
                 </div>
-                <center>
+                {/*<center>
                     <a href="./AdamFiggatWebDeveloper.pdf">Download a copy of my reusme here!</a>
-                </center>
+                </center>*/}
             </div>
         );
     }

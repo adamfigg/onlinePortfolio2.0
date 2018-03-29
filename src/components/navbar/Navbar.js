@@ -39,11 +39,11 @@ export default class Example extends React.Component {
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
-              <NavItem>
+              {/*<NavItem>
                 <NavLink>
                   <Link to="/About">About</Link>
                 </NavLink>
-              </NavItem>
+              </NavItem>*/}
 
               <NavItem>
 
